@@ -1,0 +1,96 @@
+.root-pane {
+    -fx-background-color: #F5F7FB;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+}
+
+.app-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.subtitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: #64748B;
+}
+      
+.drop-zone {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #93C5FD;
+    -fx-border-width: 2px;
+    -fx-border-style: dashed;
+    -fx-border-radius: 14px;
+    -fx-background-radius: 14px;
+}
+
+.drop-icon {
+    -fx-font-size: 34px;
+    -fx-text-fill: #2563EB;
+}
+
+.drop-title {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1E3A8A;
+}
+
+.button {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #334155;
+    -fx-border-color: #D8E0EB;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 15px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #EFF6FF;
+    -fx-border-color: #93C5FD;
+}
+
+.button:disabled {
+    -fx-opacity: 0.55;
+    -fx-cursor: default;
+}
+
+#convert-button {
+    -fx-background-color: #2563EB;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: #2563EB;
+}
+
+.list-view {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10px;
+    -fx-border-color: #E2E8F0;
+    -fx-border-radius: 10px;
+    -fx-padding: 6px;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 12px;
+    -fx-text-fill: #334155;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #DBEAFE;
+    -fx-background-radius: 6px;
+    -fx-text-fill: #1E3A8A;
+}
+
+.progress-bar {
+    -fx-accent: #2563EB;
+}
+
+.progress-bar > .track {
+    -fx-background-color: #E2E8F0;
+    -fx-background-radius: 10px;
+}
+
+.label {
+    -fx-text-fill: #334155;
+}
